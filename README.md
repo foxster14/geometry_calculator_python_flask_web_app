@@ -1,2 +1,2 @@
-# geometry_calculator_web
+# Geometry Calculator Web
 The web version of the Geometry Calculator Tool
