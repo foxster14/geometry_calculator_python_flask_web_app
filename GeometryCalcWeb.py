@@ -44,4 +44,4 @@ def cylinderForm():
 #more code here for the rest of the calculators: sphere, cube, etc.
   
 if __name__=='__main__':   #more flask plumbing so the environment starts correctly
-   app.run()
+   app.run(host='0.0.0.0')
