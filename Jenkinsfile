@@ -9,7 +9,7 @@ pipeline {
         }
         stage('test') {
             steps {
-                sh 'python3 ./geometry_calculator_web/cylinderTest.py'
+                sh 'python3 cylinderTest.py'
             }
         }
     }
