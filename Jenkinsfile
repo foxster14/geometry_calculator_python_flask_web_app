@@ -1,4 +1,4 @@
-def remote = [name: 'flaskserver' host: '192.168.56.104' user: 'joeaxberg' password: 'axbRTR95' allowAnyHosts: true]
+def remote = [name: 'flaskserver' host: '192.168.56.104' user: 'joeaxberg' password: "axbRTR95' allowAnyHosts: true]
 pipeline {
     agent any
 
