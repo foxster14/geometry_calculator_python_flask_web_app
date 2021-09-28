@@ -15,7 +15,7 @@ pipeline {
         }
         stage('package'){
             steps {
-                tar -cf geometry_calculator_web.tar *
+                sh 'tar -cf geometry_calculator_web.tar *'
             }
         }
         stage('deploy'){
