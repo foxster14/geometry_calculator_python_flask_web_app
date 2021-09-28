@@ -13,9 +13,14 @@ pipeline {
                 sh 'python3 cylinderTest.py'
             }
         }
+        stage('package'){
+            steps {
+                tar -cf geometry_calculator_web.tar *
+            }
+        }
         stage('deploy'){
             steps {
-                sshPut remote: remote, from: 'geometry_calculator_web.zip', into: '.'
+                sshPut remote: remote, from: 'geometry_calculator_web.tar', into: '.'
             }
         }
     }
