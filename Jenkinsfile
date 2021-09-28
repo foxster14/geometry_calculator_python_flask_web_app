@@ -22,7 +22,6 @@ pipeline {
         stage('test') {
             steps {
                 sh 'python3 cylinderTest.py'
-                sh 'python3 GeometryCalcWebTest.py'
             }
         }
         stage('deploy'){
