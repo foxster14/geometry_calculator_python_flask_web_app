@@ -34,13 +34,13 @@ Use this as sample code for related activities.
     >source venv/bin/activate
 
     Windows:
-    >Scripts\activate.bat
+    >venv\Scripts\activate.bat
 
 4. **Install App Dependencies Using the Python Package Tool:**
 
-    Rather than using pip to install the required packages, such as Flask, all dependencies are in the requirements.txt file.
+    Rather than using pip to install the required packages, such as Flask, etc., all dependencies are in the requirements.txt file.
 
-    > pip install requirements.txt
+    > pip install -r requirements.txt
 
     In a virtual environment that was create using Python 3, on Unix OS's there no need to use pip3.  You can, but pip also works in this instance.
 
