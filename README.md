@@ -20,7 +20,7 @@ Use this as sample code for related activities.
 
 2. **Create a Python Virtual Environment**
 
-    This is a Flask based Python Web App.  It is advisable to use a Python Virtual Environment to keep this app's dependencies separate from other Python dependencies on the target machine. To create a Virtual Environment do the following from within the geometry_calculator_web directory: 
+    This is a simple Flask-based Python Web App.  It is advisable to use a Python Virtual Environment to keep this app's dependencies separate from other Python dependencies on the target machine. To create a Virtual Environment do the following from within the geometry_calculator_web directory: 
 
     Unix OS's:   
     > python3 -m venv venv
