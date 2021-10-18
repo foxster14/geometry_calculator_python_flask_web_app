@@ -1,8 +1,9 @@
 # Geometry Calculator Web
 
-The web version of the Geometry Calculator Tool used in SENG3120 & SENG3110
-
-Use this as sample code for related activities.
+The is a simple Flask-based web application that uses a Geometry Calculator Tool I previously created for my Intro to Programming course. This project demonstrate a simple implementations of the following methodologies: 
+* Unit testing
+* Virtual environments for code deployment 
+* And a dynamic web application using Python Flask as the framework
 
 ---
 
@@ -20,7 +21,7 @@ Use this as sample code for related activities.
 
 2. **Create a Python Virtual Environment**
 
-    This is a simple Flask-based Python Web App.  It is advisable to use a Python Virtual Environment to keep this app's dependencies separate from other Python dependencies on the target machine. To create a Virtual Environment do the following from within the geometry_calculator_web directory: 
+    It is advisable to use a Python Virtual Environment to keep this app's dependencies separate from other Python dependencies on the target machine. To create a Virtual Environment do the following from within the geometry_calculator_web directory: 
 
     Unix OS's:   
     > python3 -m venv venv
@@ -39,16 +40,18 @@ Use this as sample code for related activities.
 4. **Install App Dependencies Using the Python Package Tool:**
 
     Rather than using pip to install the required packages, such as Flask, etc., all dependencies are in the requirements.txt file.
-
+    
+    In a virtual environment that was create using Python 3, on Unix OS's there no need to use pip3.  You can, but pip also works in this instance.   
+    > pip install -r requirements.txt
+    
+    Windows:
     > pip install -r requirements.txt
 
-    In a virtual environment that was create using Python 3, on Unix OS's there no need to use pip3.  You can, but pip also works in this instance.
-
-5. Run the Application:
+5. **Run the Application:**
 
     > python GeometryCalcWeb.py
 
-    The App should now be running.  Access it via `localhost:5000`
+    The App should now be running on port 5000.  Access it via `localhost:5000` --or-- '127.0.0.1:5000'
 
     Running App:
 
@@ -57,9 +60,9 @@ Use this as sample code for related activities.
 
 ## Python Unit Testing
 
-This repo also contains two sample Unit Tests.  One for the cylinder.py module.  One for the GeometryCalcWeb.py program.  It is up to the student to understand how the Unit Tests work. Reference course resources, notes taken in class, instructor demo's.
+This repo also contains two sample Unit Tests.  One for the cylinder.py module.  One for the GeometryCalcWeb.py program. 
 
-Run them by doing the following:
+You can run them by doing the following:
 
 > python cylinderTest.py
 
