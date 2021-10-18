@@ -1,6 +1,6 @@
 # Geometry Calculator Web
 
-The is a simple Flask-based web application that uses a Geometry Calculator Tool I previously created for my Intro to Programming course. This project demonstrate a simple implementations of the following methodologies: 
+The is a simple Flask-based web application that uses a Geometry Calculator Tool created out of assignments from my Intro to Programming course. This project demonstrates simple implementations of the following methodologies: 
 * Unit testing
 * Virtual environments for code deployment 
 * And a dynamic web application using Python Flask as the framework
