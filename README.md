@@ -51,11 +51,7 @@ The is a simple Flask-based web application that uses a Geometry Calculator Tool
 
     > python GeometryCalcWeb.py
 
-    The App should now be running on port 5000.  Access it via `localhost:5000` --or-- '127.0.0.1:5000'
-
-    Running App:
-
-    ![serverisrunning](./readmeimages/serverisrunning.png)
+    The App should now be running on port 5000.  Access it via `localhost:5000` --or-- `127.0.0.1:5000`
 
 
 ## Python Unit Testing
