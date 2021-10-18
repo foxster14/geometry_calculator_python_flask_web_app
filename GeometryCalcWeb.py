@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 #flask route for the index page
 #uses html template for user selection
-@app.route("/", methods = ["GET", "POST"])
+@app.route("/", methods = ["GET", "POST"]) #this makes the homepage render
 def mainForm():
    if request.method == "POST":
       sphere = request.form.get("sphere")
