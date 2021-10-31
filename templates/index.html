@@ -4,13 +4,15 @@
     <h3>SENG3110 Geometry Calculator</h3>
     <h4>Please Select From the Following: </h4>
 
-    <form action="{{ url_for("mainForm")}}" method="post">
+    <form action="{{ url_for("mainForm")}}" method="post"> <!--connecting the form to the mainForm method-->
         <input type="radio" id="sphere" name="sphere">
         <label for="sphere">Sphere</label></br>
         <input type="radio" id="cylinder" name="cylinder">
         <label for="cylinder">Cylinder</label></br>
+        <input type="radio" id="cone" name="cone">
+        <label for="cone">Cone</label></br>
         <p></p>
-        <button type="submit">Make Selection</button>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
