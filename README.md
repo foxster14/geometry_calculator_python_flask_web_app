@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Geometry Calculator Web
 
 The web version of the Geometry Calculator Tool used in SENG3120 & SENG3110
@@ -64,3 +65,6 @@ Run them by doing the following:
 > python cylinderTest.py
 
 > python GeometryCalcWeb.py
+=======
+# Geometry Calculator Web App
+>>>>>>> 620c1fe3c64c57c24d16cfd9e6e5e8d0f2b10207
