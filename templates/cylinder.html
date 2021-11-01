@@ -1,15 +1,36 @@
 <html>
-<head></head>
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body>
-    <form action="{{ url_for("cylinderForm")}}" method="post">
-        <label for="radius">Please Enter the radius:</label>
-        <input type="text" id="radius" name="rad" placeholder="radius">
-    </br>
-        <label for="height">Please Enter the height:</label>
-        <input type="text" id="height" name="hgt" placeholder="height">
-    <p></p>
-        <button type="submit">Calculate Volume, Surface Area, Lateral & Base Surface Area</button>
-    </form>
-    <br><button><a href="/">Home</a></button>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+            <a href="/" class="w3-bar-item w3-button w3-theme-l1">Geometry Calculator</a>
+            <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>-->
+        </div>
+    </div>
+
+    <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+            <h1>Cylinder</h1>
+            <form action="{{ url_for("cylinderForm")}}" method="post">
+                <label for="radius">Please Enter the radius:</label>
+                <input type="text" id="radius" name="rad" placeholder="radius">
+                <br>
+                <label for="height">Please Enter the height:</label>
+                <input type="text" id="height" name="hgt" placeholder="height">
+                <p></p>
+                <button type="submit">Calculate Volume, Surface Area, Lateral & Base Surface Area</button>
+            </form>
+            <br><button><a href="/">Home</a></button>
+        </div>
+    </div>
 </body>
 </html>
