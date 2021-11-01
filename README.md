@@ -13,11 +13,13 @@ The is a simple Flask-based web application that uses a Geometry Calculator Tool
 
 1. **Pick a location on disk and clone this code into a local repository:**
 
-    > git clone https://github.com/axbjos/geometry_calculator_web.git
+    > git clone https://github.com/foxster14/geometry_calculator_python_flask_web_app
 
     (Alternatively the new GitHub CLI could also be used)
 
-    A new directory will be created:  geometry_calculator_web   "cd" into it.
+    A new directory will be created:  geometry_calculator_python_flask_web_app  "cd" into it.
+
+    > cd ./geometry_calculator_python_flask_web_app
 
 2. **Create a Python Virtual Environment**
 
