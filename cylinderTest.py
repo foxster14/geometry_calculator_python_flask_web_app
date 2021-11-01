@@ -9,6 +9,15 @@ class cylinderTest(unittest.TestCase):
 
     def test_volume2(self):
         assert(cylinder.volume(10,100) == 31415.926535897932)
+    
+    def test_area(self):
+        assert(cylinder.surfaceArea(5,4) >= 282)
+    
+    def test_lateral(self):
+        assert(cylinder.lateral(5,4) >= 125)
+    
+    def test_base(self):
+        assert(cylinder.base(5) >= 78)
 
     #failing test
     #def test_volume3(self):
