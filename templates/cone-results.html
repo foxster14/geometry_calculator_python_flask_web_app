@@ -1,12 +1,31 @@
 <html>
 <head>
-    <title>Cone Result</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cone Calculations</h1>
-    <p>User entered: Radius {{radius}} </p> 
-    <p>User entered: Height {{height}} </p> 
-    <p>The Length of a Side (Slant) is: {{slant}} and the Surface Area is: {{surf}} </p>
-    <br><button><a href="/">Home</a></button>
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+            <a href="/" class="w3-bar-item w3-button w3-theme-l1">Geometry Calculator</a>
+            <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>-->
+        </div>
+    </div>
+
+    <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+            <h1>Cone Calculations</h1>
+            <p>User entered: Radius {{radius}} </p> 
+            <p>User entered: Height {{height}} </p> 
+            <p>The Length of a Side (Slant) is: {{slant}} and the Surface Area is: {{surf}} </p>
+            <br><button><a href="/">Home</a></button>
+        </div>
+    </div>
 </body>
 </html>
