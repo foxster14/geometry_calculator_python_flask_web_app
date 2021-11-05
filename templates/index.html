@@ -67,11 +67,11 @@
         <h6>Below are options to choose the shape that you would like to see calculations for</h6>
         <p>
             <form action="{{ url_for("mainForm")}}" method="post"> <!--connecting the form to the mainForm method-->
-                <input type="radio" id="sphere" name="sphere">
+                <input type="radio" value="sphere" id="sphere" name="shape">
                 <label for="sphere">Sphere</label><br>
-                <input type="radio" id="cylinder" name="cylinder">
+                <input type="radio" value="cylinder" id="cylinder" name="shape">
                 <label for="cylinder">Cylinder</label><br>
-                <input type="radio" id="cone" name="cone">
+                <input type="radio" value="cone" id="cone" name="shape">
                 <label for="cone">Cone</label><br>
                 <p></p>
                 <button type="submit">Submit</button>

@@ -23,17 +23,18 @@ app = Flask(__name__)
 def mainForm():
    if request.method == "POST":
       ## This determines which selection the user made
-      sphere = request.form.get("sphere")
-      cylinder = request.form.get("cylinder")
-      cone = request.form.get("cone")
+      #sphere = request.form.get("sphere")
+      #cylinder = request.form.get("cylinder")
+      #cone = request.form.get("cone")
+      selection = request.form['shape'] #prints to command line for trouble shooting
       print("Selection was: ", sphere, cylinder, cone) #prints to command line for trouble shooting
-      if sphere == "on":
+      if selection == "sphere":
          print("User selected sphere") #prints to command line for trouble shooting
          return redirect(url_for('sphereForm'))
-      elif cylinder == "on":
+      if selection == "cylinder":
          print("User selected cylinder") #prints to command line for trouble shooting
          return redirect(url_for('cylinderForm'))
-      elif cone == "on":
+      if selection == "cone":
          print("User selected cone")
          return redirect(url_for('coneForm'))
    return render_template("index.html")
