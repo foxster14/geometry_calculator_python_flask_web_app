@@ -26,7 +26,7 @@ def mainForm():
       #sphere = request.form.get("sphere")
       #cylinder = request.form.get("cylinder")
       #cone = request.form.get("cone")
-      selection = request.form['shape'] #prints to command line for trouble shooting
+      selection = request.form['shape'] 
       print("Selection was: ", sphere, cylinder, cone) #prints to command line for trouble shooting
       if selection == "sphere":
          print("User selected sphere") #prints to command line for trouble shooting

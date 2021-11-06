@@ -7,34 +7,34 @@ import math
 
 # calculate surface area using radius and height
 def surfaceArea(radius, height):
-    surfaceArea = (2 * math.pi * radius * height) + (2 * math.pi * radius**2)
-    if type(radius) and type(height) != int:
-        nullSurfaceArea = 0
-        return nullSurfaceArea
+    surfaceArea = round((2 * math.pi * radius * height) + (2 * math.pi * radius**2),2)
+    # if type(radius) and type(height) != int:
+    #     nullSurfaceArea = 0
+    #     return nullSurfaceArea
     return surfaceArea
 
 #calculate volume using radius and height
 def volume(rad, hi):
-    volume = math.pi * rad * rad * hi
-    if type(rad) and type(hi) != int:
-        nullVolume = 0
-        return nullVolume
+    volume = round((math.pi * rad * rad * hi),2)
+    # if type(rad) and type(hi) != int:
+    #     nullVolume = 0
+    #     return nullVolume
     return volume
 
 # calculate lateral surface area using radius and height
 def lateral(radius, height):
-    lateral = 2 * math.pi * radius * height
-    if type(radius) and type(height) != int:
-        nullLateral = 0
-        return nullLateral
+    lateral = round((2 * math.pi * radius * height),2)
+    # if type(radius) and type(height) != int:
+    #     nullLateral = 0
+    #     return nullLateral
     return lateral
 
 # calculate base (top or bottom of cylinder) surface area using radius
 def base(radius):
-    base = math.pi * radius**2
-    if type(radius) != int:
-        nullBase = 0
-        return nullBase
+    base = round((math.pi * radius**2),2)
+    # if type(radius) != int:
+    #     nullBase = 0
+    #     return nullBase
     return base
 
 # terminal output
