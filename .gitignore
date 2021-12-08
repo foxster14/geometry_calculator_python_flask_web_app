@@ -142,3 +142,6 @@ Scripts/pip3.9.exe
 Scripts/pip3.exe
 Scripts/python.exe
 Scripts/pythonw.exe
+
+#Jenkins stuff
+Jenkinsfile
